@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог Sedona</title>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+  </head>
+  <body>
+  <div class="inner-page">
+    
+	<header class="main-header">
+      <nav class="main-navigation">
+		<a href="sedona-index.html" class="main-header-logo">
+		<img src="img/logo-small.png" width="140" height="72" alt="Логотип">
+		</a>
+		
+        <ul class="navigation-left">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="photo.html">Фото и видео</a></li>
+        </ul>
+	
+        <ul class="navigation-right">
+          <li><a href="map.html">Карта штата</a></li>
+          <li><a href="hotels.html">Гостиницы</a></li>
+        </ul>
+		</nav>
+    </header>
+	
+	<main class="container"> 
+	   <div class="catalog-columns">
+	   <img src="img/filter_background.jpg" width="1200" height="218" alt="Добро пожаловать в Седону">
+       <div class="filters">
+		  <fiedset>
+            <legend>Инфраструктура:</legend>
+					<ul>
+						<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Бассейн" id="filter-swimpool" checked><label for="filter-swimpool">Бассейн</label></li>
+						<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Парковка" id="filter-parking"checked><label for="filter-parking">Парковка</label></li>
+						<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Wi-Fi" id="filter-Wi-Fi"checked><label for="filter-Wi-Fi">Wi-Fi</label></li>
+					</ul>
+          </fiedset>
+		  <fiedset>
+            <legend>Тип жилья:</legend>
+					<ul>
+						<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Гостиница" id="filter-hotel" checked><label for="filter-hotel">Гостиница</label></li>
+						<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Мотель" id="filter-motel"checked><label for="filter-motel">Мотель</label></li>
+						<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Апартаменты" id="filter-apartment"checked><label for="filter-apartment">Апартаменты</label></li>
+					</ul>
+          </fiedset>
+		      <div class="filter-range">
+                 <div class="filter-range-title">Стоимость в сутки (р):</div>
+                     <div class="price-controls">
+                     <label class="min-price">от <input type="text" name="min-price"></label>
+                     <label class="max-price">до <input type="text" name="max-price"></label>
+					 <output class="min-price-output" for="price"></output>
+					 <output class="max-price-output" for="price"></output>
+                     </div>
+                 <div class="range-controls">
+                     <div class="scale">
+                       <div class="bar"></div>
+                     </div>
+                     <div class="range-toggle range-toggle-min"></div>
+                     <div class="range-toggle range-toggle-max"></div>
+                 </div>
+                 <button class="btn-transparent" type="submit">Показать</button>
+              </div>
+	      </div>
+	   </div>
+	    
+	   <section class="breadcrumbs">
+	   
+	    <h1>Найдено:3</h1>
+		<p>Сортировка</p>
+	    <ul class="breadcrumbs">
+          <li class="current">По цене</a></li>
+          <li><a href="catalog.html">По типу</a></li>
+          <li><a href="catalog.html">По рейтингу</a></li>
+        </ul>
+		
+	   </section>
+	   
+	   <section class="hotel-list">
+	   
+	    <div class="hotel-icon">
+		   <img src="img/pic1.jpg" width="135" height="90" alt="Amara Resort & Spa">
+		   <div class="hotel-info">
+		      <a href="#"><h1>Amara Resort & Spa</h1></a>
+		      <p>Гостиница</p>
+		      <p>от 4000 р.</p>
+		      <button class="details">Подробнее</button>
+		      <button class="reservation" >Забронировать</button>
+		   </div>
+		   <div class="rayting">
+		   <ul>
+		   	<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
+		   	<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
+		   	<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
+			<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
+		   </ul> 
+		   <button>Рейтинг: 8,5</button>
+		   </div>
+		</div>
+		
+		 <div class="hotel-icon">
+		   <img src="img/pic2.jpg" width="135" height="90" alt="Desert Quail Inn">
+		   <div class="hotel-info">
+		   <a href="#"><h1>Desert Quail Inn</h1></a>
+		   <p>Мотель</p>
+		   <p>от 3000 р.</p>
+		   <button class="details">Подробнее</button>
+		   <button class="reservation" >Забронировать</button>
+		   </div>
+		   <div class="rayting">
+		     <ul>
+		   	<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
+		   	<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
+		   	<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
+		   </ul>  
+		   <button>Рейтинг: 8,9</button>
+		   </div>
+		</div>
+		
+		 <div class="hotel-icon">
+           <img src="img/pic3.jpg" width="135" height="90" alt="Villas at Poco Diablo">
+		   <div class="hotel-info">
+		   <a href="#"><h1>Villas at Poco Diablo</h1></a>
+		   <p>Апартаменты</p>
+		   <p>от 2000 р.</p>
+		   <button class="details">Подробнее</button>
+		   <button class="reservation" >Забронировать</button>
+		   </div>
+		   <div class="rayting">
+		    <ul>
+		   	<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
+		   	<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
+		   </ul>   
+		   <button>Рейтинг: 9,2</button>
+		   </div>
+		</div>
+	   </section>
+
+	<footer class="main-footer">
+        <div class="footer">
+            <h1>#visitSEDONA</h1>
+            <div class="friends">
+                <ul>
+                    <li><a class="social-button" href="#"><span class="visually-hidden">Twitter</span>
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="15" viewBox="0 0 17 15"><g><g><image width="17" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAYAAAACsSQRAAABVUlEQVQ4T52TP0vDQByGcyKoXXSwiwhCl4o4iqBkKvoFBCmlm7qIQtHFTaGfoEORDt26lC4OgoO4ipNIodjJwUVwUkREWjV93pBKCEltPHi4P783T3J3xDiOM2ZZVscY49CHNjIzFBqwAl2owz5MQNoQOGSwCTai76CF+hxrbe8Bf/mVySRsSyJrFu71JkRv/iT1S+brER/5w/qVJGUGe17ok/4ITpF9aY261rTlsKavsSVJMXgIJDrMW3AHW2AiJLu8rCLJAQGdy2xEcNDyBpIzSUqkCv8Q6JElJLeSJJk8gq4rTtOZJZB03b0i0v1fwFQMyzUCW/m+ZJnxDYzEkLiH6pdIpttYGFLyTC6F5ONX4m1pmv4YdoY4nywC/QZu08GuyQqLkAPJBrUighN/QJIqC3kY/+PhF+oFBLVgrn+wGQr6f1ZhHka94BN9E86hhuA97EU9N7pthao+G4cAAAAASUVORK5CYII="/></g></g></svg></a></li>
+                    <li><a class="social-button" href="#"><span class="visually-hidden">Facebook</span>
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="22" viewBox="0 0 12 22"><g><g><image width="12" height="22" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAWCAYAAAD0OH0aAAAAcElEQVQ4T2NkwAL+//9vABTuBGJHIGZFVsKIrh6q+BhQnBObYdg07AQqdMOmGCSGTcMvdGfgdBLQOSAD/qGZrgDkf4SJYbPhP5oGQUZGxg901AB0N7oTcAUQWJxxcGoQQHP0+6EWD1iS90AnjcHnJACTZmYRDrW3iAAAAABJRU5ErkJggg=="/></g></g></svg></a></li>
+                     <li><a class="social-button" href="#"><span class="visually-hidden">Twitter</span>
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16" viewBox="0 0 20 16"><g><g><image width="20" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAAr0lEQVQ4T2P8//+/FAMDw3Yg1gJiFiAmB/wBaroAxP6MQAPvARmK5JiCRc99kIF/gRJMVDLwH8jA/1QyDGwMPgMbgPKeQGxOioX4DAxkZGTcAPSAOtDAHiD2IiZoCBoIcx3QYGEguxuIo4CYHZeriTYQyWA2ILsFiDOBmAfdYEoMzAEaxkm2gVTzMjUjherJhpTkB1dLk6x3A2g8KPFSA9wEuRBUfG0EYgMgprj4AgD8Ime76lyMJwAAAABJRU5ErkJggg=="/></g></g></svg></a></li>
+                    </ul>
+                    </div>
+                    <div class="box-footer">
+				        <p>Website by</p>
+				        <a><img src="img/html_academy.jpg" width="115" height="41" alt="HTML-Academy"></a>
+				    </div>
+            <div>
+    </footer>
+		 
+	   
+	   
+	  
+		
+	</main>
+	</div>
+</body>
+</html>
