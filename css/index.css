@@ -69,8 +69,15 @@ p {
   width: 239px;
 }
 
+.navigation-item:nth-child(4) {
+  margin-left: 243px;
+}
+
 .navigation-item-logo {
   position: absolute;
+  top: 0;
+  left: 530px;
+  z-index: 2;
 }
 
 .navigation-link {
@@ -84,7 +91,7 @@ p {
 
 .navigation-item:last-child a {
   padding-right: 71px;
-  padding-left: 82px;
+  padding-left: 85px;
 }
 
 .navigation-link:active {
