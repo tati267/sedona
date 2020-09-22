@@ -47,7 +47,6 @@ input[type="checkbox"].visually-hidden {
 	height: 1px;
 	margin: -1px;
 	border: 0;
-	padding: 0;
 	white-space: nowrap;
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
@@ -62,8 +61,7 @@ p {
    HEADER
    ========================================================================== */
 .navigation {
-  margin: 0 auto;
-  padding: 0;	
+  margin: 0 auto;	
   background-color: #ffffff;
   position: relative;
 }
@@ -129,21 +127,25 @@ p {
   display: block;
 }
 
-.page-main {
-margin: 0;
-padding: 0;	
+.intro {
+  padding: 53px 0;
+  text-align: center;
+}
+
+.intro h1{
+  margin: 0 auto;
+  padding-bottom: 28px;
+  max-width: 500px;
+  text-align: center;
 }
 
 .reason-one, .reason-two {
-  margin: 0;
-  padding: 0;
   height: 255px;
   display: flex;
   background-color: #81b3d2;
 }
+
 .single-icon {
-margin: 0;
-padding: 0;
 line-height: 21px;
 width: 401px;
 max-height: 255px;
@@ -164,15 +166,9 @@ background-color: #81b3d2;
 padding-top: 30px;
 }
 .icons {
-margin: 0;
-padding: 0;
 background-color: #ffffff;
 height: 330px;
 display: flex;
-}
-.single-icon,.single-icon h1, .single-icon p, .single-icon img {
-margin: 0;
-padding: 0;
 }
 .icons .single-icon img {
 padding-top: 60px;
@@ -183,8 +179,6 @@ padding-bottom: 30px;
 }
 .cons {
 height: 256px;
-margin: 0;
-padding: 0;
 background-color: #eeeeee;
 display: flex;
 margin-bottom: 57px;
@@ -200,18 +194,13 @@ padding-left: 62px;
 padding-right: 80px;
 }
 .interesed {
-margin: 0;
-padding: 0;
 text-align: center;
 }
 .interesed h2 {
 font-size: 30px;
 padding-top: 57px; 
 }
-.interesed h2, .interesed p {
-margin: 0;
-padding: 0;	
-}
+
 .interesed p {
 margin-bottom: 52px;
 margin-top: 30px;
