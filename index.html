@@ -111,38 +111,46 @@
 						aria-hidden="false" tabindex="0"></iframe>
 					<div class="popup">
 						<form class="reservation-form" action="https://echo.htmlacademy.ru" method="post">
-							<div class="flex-container">
-								<div class="date"><label for="arrival-date">Дата заезда:</label></div>
+							<div class="container">
+								<div class="date">
+									<label for="arrival-date">Дата заезда:</label>
+								</div>
 								<div class="input-group-icon">
 									<input class="arrival-date input--style-4 js-datepicker" type="date"
 										name="arrival-date" placeholder="24 апреля 2017" required>
 
 								</div>
 
-								<div class="date"><label for="departure-date">Дата выезда:</label></div>
+								<div class="date">
+									<label for="departure-date">Дата выезда:</label>
+								</div>
 								<div class="input-group-icon">
 									<input class="departure-date input--style-4 js-datepicker" type="date"
 										name="departure-date" placeholder="4 июля 2017" required>
 
 								</div>
 
-								<div class="adults"><label for="number-of-adults">Взрослые:</label></div>
+								<div class="adults">
+									<label for="number-of-adults">Взрослые:</label>
+								</div>
 								<div class="number-of-people">
-									<button class="minus" onclick="minus()"></button>
-									<input class="number-of-adults" type="number" name="number-of-adults"
-										placeholder="2" min="1" required />
-									<button class="plus" onclick="plus()"></button>
+									<button class="minus minus-btn-adults"></button>
+									<input id="number-of-adults" type="number" name="number-of-adults" placeholder="2"
+										min="1" required />
+									<button class="plus plus-btn-adults"></button>
 								</div>
 
-								<div class="children"><label for="number-of-children">Дети:</label></div>
+								<div class=" children">
+									<label for="number-of-children">Дети:</label>
+								</div>
 								<div class="number-of-people">
-									<button class="minus" onclick="minus()"></button>
-									<input class="number-of-children" type="number" name="number-of-children"
+									<button class="minus minus-btn-children"></button>
+									<input class=" number-of-children" type="number" name="number-of-children"
 										placeholder="0" min="0" />
-									<button class="plus" onclick="plus()"></button>
+									<button class="plus plus-btn-children"></button>
 								</div>
 
-								<button class="button-find" type="submit">Найти</button>
+								<button class=" button-find" type="submit">Найти</button>
 							</div>
 						</form>
 					</div>

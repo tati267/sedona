@@ -1,4 +1,4 @@
-const link = document.querySelector(".btn-form");
+const btnForm = document.querySelector(".btn-form");
 const popup = document.querySelector(".popup");
 const plusBtnAdults = popup.querySelector(".plus-btn-adults");
 const minusBtnAdults = popup.querySelector(".minus-btn-adults");
@@ -9,7 +9,7 @@ const displayChildren = popup.querySelector("input.number-of-children");
 
 
 //toggle popup
-link.addEventListener('click', function (evt) {
+btnForm.addEventListener('click', function (evt) {
 	evt.preventDefault();
 	popup.classList.toggle('popup-show');
 });

@@ -10,7 +10,6 @@ li {
 
 .page {
   margin: 0 auto;
-  width: 1280px;
   background-color: #E7E5E5;
 }
 
@@ -25,6 +24,7 @@ li {
   color: #000000;
   box-sizing: border-box;
   background-color: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
 }
 
 .inner-page-index {
@@ -269,8 +269,7 @@ p {
 }
 
 .social-button {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 0 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -308,10 +307,14 @@ p {
    Filter
    ========================================================================== */
 .catalog-columns {
+  margin-left: 0;
   max-height: 218px;
-  background-color: #7b9ab9;	
-  width: 1200px;
+  background-color: #7b9ab9;
   position: relative;
+}
+
+.catalog-columns img{
+  display: block;
 }
 
 .filters {
@@ -634,7 +637,7 @@ legend {
   margin-top: -5px;	
 }
   
-.rayting {
+.rating {
   width: 115px;
   margin-left: auto;
   margin-right: 72px;
@@ -675,7 +678,6 @@ button {
 .reservation {
   margin-left: 6px;
   margin-bottom: 11px;
-  background-color: #766257;
   color: #ffffff;
   width: 142px;
 }
@@ -690,7 +692,7 @@ button {
   box-shadow: none
 }
   
-.rayting img {
+.rating img {
   margin: 0;
   padding: 0;
   display: inline;
@@ -698,17 +700,17 @@ button {
   padding-bottom: 40px;
 }
   
-.rayting li {
+.rating li {
   display: inline;	
 }
   
-.rayting ul {
+.rating ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
   
-.rayting button {
+.rating button {
   background-color: #f2f2f2;
   color: #666666;
 }
@@ -718,57 +720,31 @@ button {
 .popup {
   position: absolute;
   z-index: 4;	
-  min-width: 568px;
-  min-height: 365px;
-  color: #000000;	
+  width: 568px;
+  min-height: 395px;
+  color: #000000;
+  background: #ffffff;
+  box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
   margin-left: 316px;
   top: 0px;
   font: inherit;
   font-size: 14px;
   font-weight: 700;
   line-height: 26px;
-  background: #ffffff;
   display: none;
 }
-
-.popup p {
-  margin: 0;
-  padding: 0;
-  max-width: 458px;
-}
   
-.modal-show {
+.popup-show {
   display: block;
-  }
-  
-::-webkit-calendar-picker-indicator {
-  color: rgba(0, 0, 0, 0);
-  opacity: 1;
-  background-color: transparent;
-  width: 21px;
-  height: 22px;
-  background-image: url("../img/calendar.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  opacity: 0.3;
 }
 
-::-webkit-calendar-picker-indicator:hover {
-  opacity: 1;
-}
-
-::-webkit-calendar-picker-indicator:active,
-::-webkit-calendar-picker-indicator:focus {
-   opacity: 1;
-}
-
-.flex-container {
-  width: 458px;
+.container {
+  margin: 55px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-  
+
 .input-group-icon input {
   box-sizing: border-box;
   width: 346px;
@@ -800,6 +776,27 @@ button {
   max-height: 38px;
   margin-bottom: 29px;
   padding-top: 6px;
+}
+  
+::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  background-color: transparent;
+  width: 21px;
+  height: 22px;
+  background-image: url("../img/calendar.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.3;
+}
+
+::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+}
+
+::-webkit-calendar-picker-indicator:active,
+::-webkit-calendar-picker-indicator:focus {
+   opacity: 1;
 }
   
 .adults, .children {
@@ -903,10 +900,6 @@ input::-webkit-inner-spin-button {
 .children { 
   margin-left: 5px;
   text-align: center;
-}
-
-.reservation-form {
-  padding: 55px;
 }
   
 .input-group-icon {
