@@ -646,21 +646,7 @@ background-color: #5596be;
 color: #93b8d2;
 box-shadow: none;
 }
-.reservation{
-margin-left: 6px;
-margin-bottom: 11px;
-background-color: #766257;
-color: #ffffff;
-width: 142px;
-}
-.reservation:hover{
-background-color: #604e44;
-}
-.reservation:active{
-background-color: #523e33;
-color: #938a85;
-box-shadow: none
-}
+
 .rayting img{
 margin: 0;
 padding: 0;
@@ -683,12 +669,12 @@ color: #666666;
 /* ==========================================================================
    #REGISTER FORM
    ========================================================================== */
- .modal-reservation p{
+ .popup p{
 margin: 0;
 padding: 0;
 max-width: 458px;
 }
- .modal-reservation{
+ .popup{
 position: absolute;
 z-index: 4;	
 min-width: 568px;
@@ -704,7 +690,7 @@ background: #ffffff;
 display: none;
 
 }
-.modal-show{
+.popup-show{
 display: block;
 
 }
@@ -728,7 +714,7 @@ display: block;
  opacity: 1;
  
 }
-.flex-container{
+.container{
 width: 458px;
 display: flex;
 flex-direction: row;
@@ -860,7 +846,7 @@ input::-webkit-inner-spin-button {
 margin-left: 5px;
 text-align: center;
 }
-.reservation-form{
+.reservation{
 padding: 55px;
 }
 

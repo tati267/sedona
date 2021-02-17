@@ -1,10 +1,9 @@
 const link = document.querySelector(".btn-form");
-const popup = document.querySelector(".modal-reservation");
+const popup = document.querySelector(".popup");
 const plusBtnAdults = popup.querySelector(".plus-btn-adults");
 const minusBtnAdults = popup.querySelector(".minus-btn-adults");
 const plusBtnChildren = popup.querySelector(".plus-btn-children");
 const minusBtnChildren = popup.querySelector(".minus-btn-children");
-const form = popup.querySelector("form");
 const displayAdults = popup.querySelector("#number-of-adults");
 const displayChildren = popup.querySelector("input.number-of-children");
 
@@ -12,13 +11,13 @@ const displayChildren = popup.querySelector("input.number-of-children");
 //toggle popup
 link.addEventListener('click', function (evt) {
 	evt.preventDefault();
-	popup.classList.toggle('modal-show');
+	popup.classList.toggle('popup-show');
 });
 
 window.addEventListener("keydown", function (evt) {
 	if (evt === 27) {
-		if (popup.classList.contains("modal-show")) {
-			popup.classList.remove("modal-show");
+		if (popup.classList.contains("popup-show")) {
+			popup.classList.remove("popup-show");
 		}
 	}
 });
