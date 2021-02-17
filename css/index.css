@@ -738,7 +738,7 @@ button {
   display: block;
 }
 
-.container {
+.container-popup {
   margin: 55px;
   display: flex;
   flex-direction: row;
