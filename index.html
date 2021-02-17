@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Главная Sedona</title>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"
+		type="text/css">
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="page">
+	<div class="inner-page inner-page-index">
+		<header class="header">
+			<nav class="navigation">
+				<ul class="navigation-list">
+					<li class="navigation-item">
+						<a class="navigation-link" href="#">Информация</a>
+					</li>
+					<li class="navigation-item">
+						<a class="navigation-link" href="#">Фото и видео</a>
+					</li>
+					<li class="navigation-item navigation-item-logo">
+						<img class="logo" src="img/logo-small.png" width="140" height="72" alt="Логотип">
+					</li>
+					<li class="navigation-item">
+						<a class="navigation-link" href="#">Карта штата</a>
+					</li>
+					<li class="navigation-item">
+						<a class="navigation-link" href="hotels.html">Гостиницы</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="page-main">
+			<img src="img/background_photo.jpg" width="1200" height="510" alt="Добро пожаловать в Седону">
+
+			<section class="intro">
+				<h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+				<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+			</section>
+
+			<section class="reason-one">
+				<div class="single-icon">
+					<h1>Настоящий городок</h1>
+					<p>— №1 —</p>
+					<p>Седона — не аттракцион для туристов,там течёт своя жизнь</p>
+				</div>
+				<img src="img/city.jpg" width="800" height="255" alt="Вид на город">
+			</section>
+
+			<section class="icons">
+				<div class="single-icon">
+					<img src="img/icon-one.svg" width="75" height="72" alt="Жилье">
+					<h1>Жилье</h1>
+					<p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+				</div>
+
+				<div class="single-icon">
+					<img src="img/icon-two.svg" width="74" height="70" alt="Еда">
+					<h1>Еда</h1>
+					<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+				</div>
+
+				<div class="single-icon">
+					<img src="img/icon-three.svg" width="64" height="76" alt="Сувениры">
+					<h1>Сувениры</h1>
+					<p>Не только китайского, но и местного производства!</p>
+				</div>
+			</section>
+
+			<section class="reason-two">
+				<img src="img/bridge.jpg" width="800" height="255" alt="Вид на город">
+				<div class="single-icon">
+					<h1>Там есть Мост дьявола</h1>
+					<p>— №2 —</p>
+					<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+				</div>
+			</section>
+
+			<section class="cons">
+				<div class="single-icon">
+					<h1>Небольшая площадь</h1>
+					<p>— №3 —</p>
+					<p>Все достопримечательности находятся очень близко</p>
+				</div>
+
+				<div class="single-icon">
+					<h1>Красивое место</h1>
+					<p>— №4 —</p>
+					<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+				</div>
+
+				<div class="single-icon">
+					<h1>Мало туристов</h1>
+					<p>— №5 —</p>
+					<p>Большинство едет в гранд каньон и толпится там</p>
+				</div>
+			</section>
+
+			<section class="interesed">
+				<h2>Заинтересовались?</h2>
+				<p>Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
+				<button class="btn-form" type="button">Поиск гостиницы в седоне</button>
+
+				<div class="map">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6546.761089080355!2d-111.76369543044389!3d34.871789281948075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2sSedona%2C%20AZ%2086336%2C%20USA!5e0!3m2!1sen!2sau!4v1587022413364!5m2!1sen!2sau"
+						width="1200" height="594" frameborder="0" style="border:0;" allowfullscreen=""
+						aria-hidden="false" tabindex="0"></iframe>
+					<div class="modal-reservation">
+						<form class="reservation-form" action="https://echo.htmlacademy.ru" method="post">
+							<div class="flex-container">
+								<div class="date"><label for="arrival-date">Дата заезда:</label></div>
+								<div class="input-group-icon">
+									<input class="arrival-date input--style-4 js-datepicker" type="date"
+										name="arrival-date" placeholder="24 апреля 2017" required>
+
+								</div>
+
+								<div class="date"><label for="departure-date">Дата выезда:</label></div>
+								<div class="input-group-icon">
+									<input class="departure-date input--style-4 js-datepicker" type="date"
+										name="departure-date" placeholder="4 июля 2017" required>
+
+								</div>
+
+								<div class="adults"><label for="number-of-adults">Взрослые:</label></div>
+								<div class="number-of-people">
+									<button class="minus" onclick="minus()"></button>
+									<input class="number-of-adults" type="number" name="number-of-adults"
+										placeholder="2" min="1" required />
+									<button class="plus" onclick="plus()"></button>
+								</div>
+
+								<div class="children"><label for="number-of-children">Дети:</label></div>
+								<div class="number-of-people">
+									<button class="minus" onclick="minus()"></button>
+									<input class="number-of-children" type="number" name="number-of-children"
+										placeholder="0" min="0" />
+									<button class="plus" onclick="plus()"></button>
+								</div>
+
+								<button class="button-find" type="submit">Найти</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer footer-index">
+			<h3>#visitSEDONA</h3>
+			<div class="friends">
+				<ul>
+					<li>
+						<a class="social-button" href="#">
+							<span class="visually-hidden">Twitter</span>
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+								width="17" height="15" viewBox="0 0 17 15">
+								<g>
+									<g>
+										<image width="17" height="15"
+											xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAYAAAACsSQRAAABVUlEQVQ4T52TP0vDQByGcyKoXXSwiwhCl4o4iqBkKvoFBCmlm7qIQtHFTaGfoEORDt26lC4OgoO4ipNIodjJwUVwUkREWjV93pBKCEltPHi4P783T3J3xDiOM2ZZVscY49CHNjIzFBqwAl2owz5MQNoQOGSwCTai76CF+hxrbe8Bf/mVySRsSyJrFu71JkRv/iT1S+brER/5w/qVJGUGe17ok/4ITpF9aY261rTlsKavsSVJMXgIJDrMW3AHW2AiJLu8rCLJAQGdy2xEcNDyBpIzSUqkCv8Q6JElJLeSJJk8gq4rTtOZJZB03b0i0v1fwFQMyzUCW/m+ZJnxDYzEkLiH6pdIpttYGFLyTC6F5ONX4m1pmv4YdoY4nywC/QZu08GuyQqLkAPJBrUighN/QJIqC3kY/+PhF+oFBLVgrn+wGQr6f1ZhHka94BN9E86hhuA97EU9N7pthao+G4cAAAAASUVORK5CYII=" />
+									</g>
+								</g>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a class="social-button" href="#">
+							<span class="visually-hidden">Facebook</span>
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+								width="12" height="22" viewBox="0 0 12 22">
+								<g>
+									<g>
+										<image width="12" height="22"
+											xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAWCAYAAAD0OH0aAAAAcElEQVQ4T2NkwAL+//9vABTuBGJHIGZFVsKIrh6q+BhQnBObYdg07AQqdMOmGCSGTcMvdGfgdBLQOSAD/qGZrgDkf4SJYbPhP5oGQUZGxg901AB0N7oTcAUQWJxxcGoQQHP0+6EWD1iS90AnjcHnJACTZmYRDrW3iAAAAABJRU5ErkJggg==" />
+									</g>
+								</g>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a class="social-button" href="#"><span class="visually-hidden">Twitter</span>
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+								width="20" height="16" viewBox="0 0 20 16">
+								<g>
+									<g>
+										<image width="20" height="16"
+											xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAAr0lEQVQ4T2P8//+/FAMDw3Yg1gJiFiAmB/wBaroAxP6MQAPvARmK5JiCRc99kIF/gRJMVDLwH8jA/1QyDGwMPgMbgPKeQGxOioX4DAxkZGTcAPSAOtDAHiD2IiZoCBoIcx3QYGEguxuIo4CYHZeriTYQyWA2ILsFiDOBmAfdYEoMzAEaxkm2gVTzMjUjherJhpTkB1dLk6x3A2g8KPFSA9wEuRBUfG0EYgMgprj4AgD8Ime76lyMJwAAAABJRU5ErkJggg==" />
+									</g>
+								</g>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="copyright">
+				<p>Website by</p>
+				<a href="#"><img src="img/html_academy.jpg" width="115" height="41" alt="HTML-Academy"></a>
+			</div>
+		</footer>
+
+	</div>
+
+	<script>
+		var link = document.querySelector(".btn-form");
+		var popup = document.querySelector(".modal-reservation");
+		let plus = popup.querySelectorAll(".plus");
+		let minus = popup.querySelectorAll(".minus");
+		var form = popup.querySelector("form");
+
+
+		let counter = 0;
+		var showadults = popup.querySelector("label.number-of-adults");
+
+
+
+		link.addEventListener('click', function (evt) {
+			evt.preventDefault();
+			popup.classList.toggle('modal-show');
+		});
+
+		plus[0].addEventListener("click", function (evt) {
+			evt.preventDefault();
+		});
+		plus[1].addEventListener("click", function (evt) {
+			evt.preventDefault();
+		});
+
+		minus[0].addEventListener("click", function (evt) {
+			evt.preventDefault();
+		});
+		minus[1].addEventListener("click", function (evt) {
+			evt.preventDefault();
+		});
+
+		const price = document.querySelector('#price');
+		const output = document.querySelector('.price-output');
+
+		output.textContent = price.value;
+
+		price.addEventListener('input', function () {
+			output.textContent = price.value;
+		});
+	</script>
+	</div>
+</body>
+
+</html>
