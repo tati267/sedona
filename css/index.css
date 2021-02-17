@@ -31,10 +31,6 @@ li {
   position: relative;
 }
 
-li {
-  list-style: none;
-}
-
 h1, h2 {
   font-weight: 700;
   line-height: 26px;
@@ -264,7 +260,6 @@ p {
 }
 
 .friends ul {
-  list-style: none;
   display: flex;
 }
 
@@ -340,7 +335,6 @@ legend {
 .filters ul {
   margin: 0;
   padding: 0;
-  list-style: none;
   min-width: 180px;
   padding-left: 72px;
 }
@@ -348,7 +342,6 @@ legend {
 .filters li {
   margin: 0;
   padding: 0;
-  list-style: none;
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
@@ -515,7 +508,6 @@ legend {
 .breadcrumbs {
   margin: 0;
   padding: 0;
-  width: 1200px;
   max-height: 87px;
   background-color: #ffffff;
   display: flex;
@@ -524,7 +516,6 @@ legend {
 .breadcrumbs ul {
   margin: 0;
   padding: 0;
-  list-style: none;
   padding-left: 40px;
   display: flex;
   justify-content: flex-start;
@@ -541,13 +532,10 @@ legend {
 }
   
 .breadcrumbs p {
-  margin: 0;
-  padding: 0;
+  padding: 35px 0;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
-  padding-top: 35px;
-  padding-bottom: 35px;
 }
   
 .breadcrumbs a:hover {
@@ -561,8 +549,6 @@ legend {
 }
   
 .breadcrumbs h1 {
-  margin: 0;
-  padding: 0;
   font-size: 21px;
   font-weight: 700;
   line-height: 26px;
@@ -570,9 +556,6 @@ legend {
 } 
   
 .hotel-icon {
-  margin: 0;
-  padding: 0;
-  width: 1200px;
   border-bottom-style: solid;	
   border-width: 1px;
   border-color: #cacaca;
@@ -585,13 +568,7 @@ legend {
 }
   
 .hotel-icon:first-child {
-  border-top-style: solid;	
-  border-width: 1px;
-  border-color: #cacaca;	
-}
-  
-.hotel-icon a {
-  text-decoration: none;
+  border-top-style: solid;		
 }
   
 .hotel-info {
@@ -603,9 +580,6 @@ legend {
 }
   
 .hotel-info h1 {
-  margin: 0;
-  padding: 0;
-  height: 26px;
   color: #000000;
   font-size: 21px;
   font-weight: 700;
@@ -707,7 +681,6 @@ button {
 .rating ul {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
   
 .rating button {
