@@ -24,37 +24,55 @@ window.addEventListener("keydown", function (evt) {
 
 
 //popup form 
+
 plusBtnAdults.addEventListener("click", function (evt) {
 	evt.preventDefault();
-	plus();
+	plusAdults();
 });
 
 minusBtnAdults.addEventListener("click", function (evt) {
 	evt.preventDefault();
-	minus();
+	minusAdults();
 });
 
 plusBtnChildren.addEventListener("click", function (evt) {
 	evt.preventDefault();
-	plus();
+	plusChildren();
 });
 
 minusBtnChildren.addEventListener("click", function (evt) {
 	evt.preventDefault();
-	minus();
+	minusChildren();
 });
 
-let score = 0;
-function plus() {
-	score += 1;
-	return displayAdults.value = score;
+let scoreAdults = 0;
+
+function plusAdults() {
+	scoreAdults += 1;
+	return displayAdults.value = scoreAdults;
 }
 
-function minus() {
+function minusAdults() {
 	if (displayAdults.value <= 0) {
 		return displayAdults.value = 0;
 	} else {
-		score -= 1;
-		return displayAdults.value = score;
+		scoreAdults -= 1;
+		return displayAdults.value = scoreAdults;
+	}
+}
+
+let scoreChildren = 0;
+
+function plusChildren() {
+	scoreChildren += 1;
+	return displayChildren.value = scoreChildren;
+}
+
+function minusChildren() {
+	if (displayChildren.value <= 0) {
+		return displayChildren.value = 0;
+	} else {
+		scoreChildren -= 1;
+		return displayChildren.value = scoreChildren;
 	}
 }
