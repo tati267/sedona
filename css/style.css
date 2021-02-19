@@ -149,13 +149,15 @@ p {
   align-items: center;
   background-color: transparent;
   text-align: center;
-  padding-left: 49px;
-  padding-right: 50px;
+  padding: 0 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .reason-one .single-icon h1, 
 .reason-two .single-icon h1 {
-  padding-top: 45px;
+  padding-top: 20px;
   color: #ffffff;
   background-color: #81b3d2;
 }
@@ -164,7 +166,7 @@ p {
 .reason-two .single-icon p {
   color: #ffffff;
   background-color: #81b3d2;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .icons {
@@ -174,8 +176,7 @@ p {
 }
 
 .icons .single-icon img {
-  padding-top: 60px;
-  padding-bottom: 30px;	
+  padding: 30px 0;	
 }
 
 .icons .single-icon h1 {
@@ -194,7 +195,7 @@ p {
 }
 .cons .single-icon p,
 .cons .single-icon p {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .cons .single-icon {
   padding-left: 62px;
@@ -649,18 +650,18 @@ button {
   box-shadow: none;
 }
   
-.reservation {
+.booking {
   margin-left: 6px;
   margin-bottom: 11px;
   color: #ffffff;
   width: 142px;
 }
   
-.reservation:hover {
+.booking:hover {
   background-color: #604e44;
 }
   
-.reservation:active {
+.booking:active {
   background-color: #523e33;
   color: #938a85;
   box-shadow: none

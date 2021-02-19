@@ -3,9 +3,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Каталог Sedona</title>
+	<title>Catalog Sedona</title>
 	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-	<link href="css/index.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 
 <body class="page">
@@ -17,21 +17,21 @@
 					<nav class="navigation">
 						<ul class="navigation-list">
 							<li class="navigation-item">
-								<a class="navigation-link" href="#">Информация</a>
+								<a class="navigation-link" href="#">Information</a>
 							</li>
 							<li class="navigation-item">
-								<a class="navigation-link" href="#">Фото и видео</a>
+								<a class="navigation-link" href="#">Photo and video</a>
 							</li>
 							<li class="navigation-item navigation-item-logo">
 								<a href="index.html" class="main-header-logo">
-									<img src="img/logo-small.png" width="140" height="72" alt="Логотип">
+									<img src="img/logo-small.png" width="140" height="72" alt="Logo">
 								</a>
 							</li>
 							<li class="navigation-item">
-								<a class="navigation-link" href="#">Карта штата</a>
+								<a class="navigation-link" href="#">State map</a>
 							</li>
 							<li class="navigation-item">
-								<a class="navigation-link" href="#">Гостиницы</a>
+								<a class="navigation-link" href="#">Hotels</a>
 							</li>
 						</ul>
 					</nav>
@@ -41,41 +41,41 @@
 
 		<main>
 			<div class="catalog-columns">
-				<img src="img/filter_background.jpg" width="1200" height="218" alt="Добро пожаловать в Седону">
+				<img src="img/filter_background.jpg" width="1200" height="218" alt="Welcome to Sedona">
 				<div class="filters">
 					<fiedset>
-						<legend>Инфраструктура:</legend>
+						<legend>Infrastructure:</legend>
 						<ul>
 							<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox"
-									type="checkbox" name="Бассейн" id="filter-swimpool" checked><label
-									for="filter-swimpool">Бассейн</label></li>
+									type="checkbox" name="Swimpool" id="filter-swimpool" checked><label
+									for="filter-swimpool">Swimpool</label></li>
 							<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox"
-									type="checkbox" name="Парковка" id="filter-parking" checked><label
-									for="filter-parking">Парковка</label></li>
+									type="checkbox" name="Parking" id="filter-parking" checked><label
+									for="filter-parking">Parking</label></li>
 							<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox"
 									type="checkbox" name="Wi-Fi" id="filter-Wi-Fi" checked><label
 									for="filter-Wi-Fi">Wi-Fi</label></li>
 						</ul>
 					</fiedset>
 					<fiedset>
-						<legend>Тип жилья:</legend>
+						<legend>Type of housing:</legend>
 						<ul>
 							<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox"
-									type="checkbox" name="Гостиница" id="filter-hotel" checked><label
-									for="filter-hotel">Гостиница</label></li>
+									type="checkbox" name="Hotel" id="filter-hotel" checked><label
+									for="filter-hotel">Hotel</label></li>
 							<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox"
-									type="checkbox" name="Мотель" id="filter-motel" checked><label
-									for="filter-motel">Мотель</label></li>
+									type="checkbox" name="Motel" id="filter-motel" checked><label
+									for="filter-motel">Motel</label></li>
 							<li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox"
-									type="checkbox" name="Апартаменты" id="filter-apartment" checked><label
-									for="filter-apartment">Апартаменты</label></li>
+									type="checkbox" name="Apartment" id="filter-apartment" checked><label
+									for="filter-apartment">Apartment</label></li>
 						</ul>
 					</fiedset>
 					<div class="filter-range">
-						<div class="filter-range-title">Стоимость в сутки (р):</div>
+						<div class="filter-range-title">Price per night (USD):</div>
 						<div class="price-controls">
-							<label class="min-price">от <input type="text" name="min-price"></label>
-							<label class="max-price">до <input type="text" name="max-price"></label>
+							<label class="min-price">from <input type="text" name="min-price"></label>
+							<label class="max-price">to <input type="text" name="max-price"></label>
 							<output class="min-price-output" for="price"></output>
 							<output class="max-price-output" for="price"></output>
 						</div>
@@ -86,19 +86,19 @@
 							<div class="range-toggle range-toggle-min"></div>
 							<div class="range-toggle range-toggle-max"></div>
 						</div>
-						<button class="btn-transparent" type="submit">Показать</button>
+						<button class="btn-transparent" type="submit">Show</button>
 					</div>
 				</div>
 			</div>
 
 			<section class="breadcrumbs">
 
-				<h1>Найдено:3</h1>
-				<p>Сортировка</p>
+				<h1>Found:3</h1>
+				<p>Sorting</p>
 				<ul class="breadcrumbs">
-					<li><a class="current">По цене</a></li>
-					<li><a href="#">По типу</a></li>
-					<li><a href="#">По рейтингу</a></li>
+					<li><a class="current">Price</a></li>
+					<li><a href="#">Type</a></li>
+					<li><a href="#">Rating</a></li>
 				</ul>
 
 			</section>
@@ -111,10 +111,10 @@
 						<a href="#">
 							<h1>Amara Resort & Spa</h1>
 						</a>
-						<p>Гостиница</p>
-						<p>от 4000 р.</p>
-						<button class="details">Подробнее</button>
-						<button class="reservation">Забронировать</button>
+						<p>Hotel</p>
+						<p>from 230 USD</p>
+						<button class="details">Details</button>
+						<button class="booking">Booking</button>
 					</div>
 					<div class="rating ">
 						<ul>
@@ -123,7 +123,7 @@
 							<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
 							<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
 						</ul>
-						<button>Рейтинг: 8,5</button>
+						<button>Rating: 8,5</button>
 					</div>
 				</div>
 
@@ -133,10 +133,10 @@
 						<a href="#">
 							<h1>Desert Quail Inn</h1>
 						</a>
-						<p>Мотель</p>
-						<p>от 3000 р.</p>
-						<button class="details">Подробнее</button>
-						<button class="reservation">Забронировать</button>
+						<p>Motel</p>
+						<p>from 320 USD</p>
+						<button class="details">Details</button>
+						<button class="booking">Booking</button>
 					</div>
 					<div class="rating ">
 						<ul>
@@ -144,7 +144,7 @@
 							<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
 							<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
 						</ul>
-						<button>Рейтинг: 8,9</button>
+						<button>Rating: 8,9</button>
 					</div>
 				</div>
 
@@ -154,17 +154,17 @@
 						<a href="#">
 							<h1>Villas at Poco Diablo</h1>
 						</a>
-						<p>Апартаменты</p>
-						<p>от 2000 р.</p>
-						<button class="details">Подробнее</button>
-						<button class="reservation">Забронировать</button>
+						<p>Apartment</p>
+						<p>from 330 USD</p>
+						<button class="details">Details</button>
+						<button class="booking">Booking</button>
 					</div>
 					<div class="rating ">
 						<ul>
 							<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
 							<li><img src="img/star.svg" width="18" height="17" alt="Star"></li>
 						</ul>
-						<button>Рейтинг: 9,2</button>
+						<button>Rating: 9,2</button>
 					</div>
 				</div>
 			</section>
@@ -174,7 +174,8 @@
 					<h1>#visitSEDONA</h1>
 					<div class="friends">
 						<ul>
-							<li><a class="social-button" href="#"><span class="visually-hidden">Twitter</span>
+							<li>
+								<a class="social-button" href="#"><span class="visually-hidden">Twitter</span>
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 										width="17" height="15" viewBox="0 0 17 15">
 										<g>
@@ -183,8 +184,11 @@
 													xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAYAAAACsSQRAAABVUlEQVQ4T52TP0vDQByGcyKoXXSwiwhCl4o4iqBkKvoFBCmlm7qIQtHFTaGfoEORDt26lC4OgoO4ipNIodjJwUVwUkREWjV93pBKCEltPHi4P783T3J3xDiOM2ZZVscY49CHNjIzFBqwAl2owz5MQNoQOGSwCTai76CF+hxrbe8Bf/mVySRsSyJrFu71JkRv/iT1S+brER/5w/qVJGUGe17ok/4ITpF9aY261rTlsKavsSVJMXgIJDrMW3AHW2AiJLu8rCLJAQGdy2xEcNDyBpIzSUqkCv8Q6JElJLeSJJk8gq4rTtOZJZB03b0i0v1fwFQMyzUCW/m+ZJnxDYzEkLiH6pdIpttYGFLyTC6F5ONX4m1pmv4YdoY4nywC/QZu08GuyQqLkAPJBrUighN/QJIqC3kY/+PhF+oFBLVgrn+wGQr6f1ZhHka94BN9E86hhuA97EU9N7pthao+G4cAAAAASUVORK5CYII=" />
 											</g>
 										</g>
-									</svg></a></li>
-							<li><a class="social-button" href="#"><span class="visually-hidden">Facebook</span>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a class="social-button" href="#"><span class="visually-hidden">Facebook</span>
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 										width="12" height="22" viewBox="0 0 12 22">
 										<g>
@@ -193,8 +197,11 @@
 													xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAWCAYAAAD0OH0aAAAAcElEQVQ4T2NkwAL+//9vABTuBGJHIGZFVsKIrh6q+BhQnBObYdg07AQqdMOmGCSGTcMvdGfgdBLQOSAD/qGZrgDkf4SJYbPhP5oGQUZGxg901AB0N7oTcAUQWJxxcGoQQHP0+6EWD1iS90AnjcHnJACTZmYRDrW3iAAAAABJRU5ErkJggg==" />
 											</g>
 										</g>
-									</svg></a></li>
-							<li><a class="social-button" href="#"><span class="visually-hidden">Twitter</span>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a class="social-button" href="#"><span class="visually-hidden">Twitter</span>
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 										width="20" height="16" viewBox="0 0 20 16">
 										<g>
@@ -203,7 +210,9 @@
 													xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAAr0lEQVQ4T2P8//+/FAMDw3Yg1gJiFiAmB/wBaroAxP6MQAPvARmK5JiCRc99kIF/gRJMVDLwH8jA/1QyDGwMPgMbgPKeQGxOioX4DAxkZGTcAPSAOtDAHiD2IiZoCBoIcx3QYGEguxuIo4CYHZeriTYQyWA2ILsFiDOBmAfdYEoMzAEaxkm2gVTzMjUjherJhpTkB1dLk6x3A2g8KPFSA9wEuRBUfG0EYgMgprj4AgD8Ime76lyMJwAAAABJRU5ErkJggg==" />
 											</g>
 										</g>
-									</svg></a></li>
+									</svg>
+								</a>
+							</li>
 						</ul>
 					</div>
 					<div class="box-footer">
